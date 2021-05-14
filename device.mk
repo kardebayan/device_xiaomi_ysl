@@ -49,5 +49,9 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.ysl.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/ysl/ysl-vendor.mk)
