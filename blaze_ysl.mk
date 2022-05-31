@@ -18,6 +18,7 @@ $(call inherit-product, device/xiaomi/ysl/device.mk)
 # Inherit some common Project Blaze flags
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
+BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := Iris
 TARGET_USE_PIXEL_CHARGER := true
 
