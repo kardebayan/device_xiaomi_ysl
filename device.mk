@@ -9,7 +9,7 @@ $(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-aosp
 
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
